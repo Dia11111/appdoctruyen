@@ -91,7 +91,7 @@ public class AdapterPdfFavorite extends RecyclerView.Adapter<AdapterPdfFavorite.
                         String bookTitle = ""+snapshot.child("title").getValue();
                         String description = ""+snapshot.child("description").getValue();
                         String categoryId = ""+snapshot.child("categoryId").getValue();
-                        String bookUrl = ""+snapshot.child("Url").getValue();
+                        String bookUrl = ""+snapshot.child("url").getValue();
                         String timestamp = ""+snapshot.child("timestamp").getValue();
                         String uid = ""+snapshot.child("uid").getValue();
                         String viewsCount = ""+snapshot.child("viewsCount").getValue();
